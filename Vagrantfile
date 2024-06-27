@@ -12,8 +12,8 @@
 
 # Location: Lomé, Togo
 
-# Created: 
-# Last modified: 
+# Created: Thursday, June 27, 2024.
+# Last modified: Thursday, June 27, 2024.
 
 # Description:
 
@@ -25,8 +25,6 @@
 
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
-
-# [Header comment block remains the same]
 
 # Configuration variables
 VAGRANT_BOX = "ubuntu/jammy64"
