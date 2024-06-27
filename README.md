@@ -1,7 +1,8 @@
 # gitlab_infra
-My custom Vagrantfile sets up a complete GitLab infrastructure with 3 runner replicas effortlessly.
-Just like this : 
 
+My custom Vagrantfile sets up a complete GitLab infrastructure with 3 runner replicas effortlessly. Just like this :
+
+```shell
 ╭─julien@zbookcreate in ~/Downloads took 2ms
 ╰─λ git clone https://github.com/julienkolani/gitlab_infra.git
 Cloning into 'gitlab_infra'...
@@ -44,7 +45,6 @@ Usage of /:   3.6% of 38.70GB   Users logged in:         0
 Memory usage: 5%                IPv4 address for enp0s3: 10.0.2.15
 Swap usage:   0%
 
-
 Expanded Security Maintenance for Applications is not enabled.
 
 5 updates can be applied immediately.
@@ -68,4 +68,3 @@ gitlab          gitlab/gitlab-ce:latest       "/assets/wrapper"        gitlab   
 gitlab-runner   gitlab/gitlab-runner:ubuntu   "/usr/bin/dumb-init …"   gitlab-runner   About a minute ago   Up About a minute
 vagrant@gitlab:/vagrant_data$ sudo docker compose exec gitlab bash
 WARN[0000] /vagrant_data/docker-compose.yml: `version` is obsolete
-root@gitlab-ce:/#
